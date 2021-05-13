@@ -2,7 +2,7 @@ name: NPM audit
 
 on:
   schedule:
-    - cron: "53 * * * *"
+    - cron: "1 * * * *"
 
 permissions:
   contents: write
