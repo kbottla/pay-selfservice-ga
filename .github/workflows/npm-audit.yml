@@ -1,8 +1,11 @@
 name: NPM audit
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: "1 * * * *"
+    - cron: "1 6 * * 1"
 
 permissions:
   contents: write
